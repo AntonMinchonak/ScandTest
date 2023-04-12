@@ -16,6 +16,7 @@
   align-items: end;
   color: #838383;
   font-family: 'Roboto', sans-serif;
+  cursor: pointer;
 }
 
 .card-list__top {
@@ -88,13 +89,12 @@
   background-color: #2EAE77;
 }
 
-#star-svg {
+.card-list__item #star-svg {
   stroke: #58A5EF;
-  fill: none;
 }
 
 .card-list__item--active #star-svg {
-  stroke: white;
+  stroke: #ffffff;
 }
 
 .card-list__item--active .card-list__require-item::after {
