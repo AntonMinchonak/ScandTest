@@ -1,0 +1,26 @@
+
+.button {
+  padding: 16px 56px ;
+  border: 2px solid var(--black);
+  border-radius: 100px;
+  font-weight: 700;
+  font-size: 20px;
+  display: inline-flex;
+  justify-content: center;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--accent);
+  border-color: var(--accent);
+}
+
+.button--small {
+  font-size: 16px;
+  padding: 8px 40px;
+}
+
+.button--fill {
+  background-color: var(--accent);
+}

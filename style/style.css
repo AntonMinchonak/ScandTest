@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  --black: #0A2640;
+  --accent: #65E4A3;
+  --grey: #777777;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,h2, .logo__text {
+font-family: 'Manrope', 'Open Sans', sans-serif ;
+z-index: 2;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif ;
+  max-width: 1240px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+  color: var(--black);
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 43px;
+  font-weight: 700;
+  color: var(--black);
+  gap: 11px;
+}
+
+.page-title {
+  font-size: 6.4rem;
+  font-weight: 400;
+  margin: 0 auto 5.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.page-title__sub {
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.block {
+  display:flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.block-title {
+  font-weight: 400;
+  font-size: 4.8rem;
+  transition: 0.2s ease-in-out;
+}
+
+.news {
+  padding: 9.6rem 100px 12.4rem;
+}
+
+.news-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 8rem;
+  column-gap: 4rem;
+  justify-content: center;
+}
+
+.news__load-more {
+  margin: 5.9rem auto 0;
+}
+
+
+@media screen and (max-width: 1025px) {
+ .news {
+    padding: 9.4rem 0 12.4rem;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+
+ 
