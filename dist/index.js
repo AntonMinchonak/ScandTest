@@ -10,13 +10,23 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./index.js":
+/*!******************!*\
+  !*** ./index.js ***!
+  \******************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Layout)\n/* harmony export */ });\nclass Layout {\r\n  static burgerButton = document.querySelector(\".header__burger\");\r\n  static headerMenu = document.querySelector(\".header__menu\");\r\n\r\n  static {\r\n    this.burgerButton.onclick = () =>  this.showMenu()\r\n  }\r\n\r\n  static showMenu() {\r\n      this.burgerButton.classList.toggle('header__burger--active')\r\n      this.headerMenu.classList.toggle(\"header__menu--active\");\r\n    }\r\n  \r\n}\n\n//# sourceURL=webpack://scandtest/./index.js?");
+
+/***/ }),
+
 /***/ "./main.js":
 /*!*****************!*\
   !*** ./main.js ***!
   \*****************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style/style.css */ \"./style/style.css\");\n/* harmony import */ var _style_header_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style/header.css */ \"./style/header.css\");\n/* harmony import */ var _style_footer_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style/footer.css */ \"./style/footer.css\");\n/* harmony import */ var _style_news_item_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./style/news-item.css */ \"./style/news-item.css\");\n/* harmony import */ var _style_subscribe_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./style/subscribe.css */ \"./style/subscribe.css\");\n/* harmony import */ var _style_tag_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./style/tag.css */ \"./style/tag.css\");\n/* harmony import */ var _style_button_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./style/button.css */ \"./style/button.css\");\n/* harmony import */ var _style_card_list_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./style/card-list.css */ \"./style/card-list.css\");\n/* harmony import */ var _style_text_input_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./style/text-input.css */ \"./style/text-input.css\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack://scandtest/./main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style/style.css */ \"./style/style.css\");\n/* harmony import */ var _style_header_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style/header.css */ \"./style/header.css\");\n/* harmony import */ var _style_footer_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style/footer.css */ \"./style/footer.css\");\n/* harmony import */ var _style_news_item_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./style/news-item.css */ \"./style/news-item.css\");\n/* harmony import */ var _style_subscribe_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./style/subscribe.css */ \"./style/subscribe.css\");\n/* harmony import */ var _style_tag_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./style/tag.css */ \"./style/tag.css\");\n/* harmony import */ var _style_button_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./style/button.css */ \"./style/button.css\");\n/* harmony import */ var _style_card_list_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./style/card-list.css */ \"./style/card-list.css\");\n/* harmony import */ var _style_text_input_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./style/text-input.css */ \"./style/text-input.css\");\n/* harmony import */ var _index_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./index.js */ \"./index.js\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack://scandtest/./main.js?");
 
 /***/ }),
 
@@ -137,6 +147,23 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /******/ 	}
 /******/ 	
 /************************************************************************/
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	(() => {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__webpack_require__.d = (exports, definition) => {
+/******/ 			for(var key in definition) {
+/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 				}
+/******/ 			}
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
+/******/ 	(() => {
+/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/make namespace object */
 /******/ 	(() => {
 /******/ 		// define __esModule on exports

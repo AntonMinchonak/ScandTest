@@ -1,4 +1,4 @@
-class Layout {
+export default class Layout {
   static burgerButton = document.querySelector(".header__burger");
   static headerMenu = document.querySelector(".header__menu");
 

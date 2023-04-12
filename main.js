@@ -7,3 +7,5 @@ import tag from "./style/tag.css";
 import button from "./style/button.css";
 import cardlist from "./style/card-list.css";
 import textinput from "./style/text-input.css";
+
+import index from "./index.js";
