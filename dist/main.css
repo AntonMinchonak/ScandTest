@@ -289,7 +289,7 @@ img {
   line-height: 1.6;
 }
 
-.news-item:hover .block-title {
+.news-item .block-title:hover {
   color: var(--accent)
 }
 
@@ -561,7 +561,7 @@ img {
 }
 
 .card-list__item--active .card-list__require-item::after {
-  content: url(/dist/327deec6374eee6761fd.svg);
+  content: url(/dist/6110ca6797cf0a2bb7f2.svg);
   width: 20px;
   height: 20px;
   border: none;

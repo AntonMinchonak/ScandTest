@@ -10,7 +10,7 @@
   line-height: 1.6;
 }
 
-.news-item:hover .block-title {
+.news-item .block-title:hover {
   color: var(--accent)
 }
 
