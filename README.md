@@ -11,3 +11,6 @@ Open http://localhost:8080/ to view it in the browser.
 
 ## npm build
 To create app build
+
+
+index.html is main task, second.html is small task
